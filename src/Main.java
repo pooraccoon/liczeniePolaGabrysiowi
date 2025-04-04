@@ -23,7 +23,7 @@ public class Main extends nieWiemOCoChodzi {
         System.out.println(poleGraniastoslupaTrojkat(34.2, 98.2)); //brak obrzeży/ścian bocznych (tylko 2*podstawa)
 
         System.out.println("Płyty pięciokątne:");
-        System.out.println(poleGraniastoslupaPieciokat(96.8, 200, 1.8, 36, 10) - 200 * 1.8); //
+        System.out.println(poleGraniastoslupaPieciokat(96.8, 200, 1.8, 36, 10) - 200 * 1.8); //liczę podstawę jako x*y - 0.5*xy
     }
 }
 
