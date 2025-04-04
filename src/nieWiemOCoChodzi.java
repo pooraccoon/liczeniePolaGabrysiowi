@@ -6,7 +6,7 @@ public class nieWiemOCoChodzi {
 
     public static double poleGraniastoslupaTrojkat(double bokTrojkata1, double bokTrojkata2) {
         double polePodstawy = 0.5 * bokTrojkata1 * bokTrojkata2;
-        return 2 * polePodstawy + (bokTrojkata1 + bokTrojkata2 + Math.hypot(bokTrojkata1, bokTrojkata2));
+        return 2 * polePodstawy;
     }
 
     public static double poleGraniastoslupaPieciokat(double dlugosc, double szerokosc, double wysokosc, double cutX, double cutY) {
